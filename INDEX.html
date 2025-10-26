@@ -1,0 +1,56 @@
+<html>
+<head>
+<title> FORMULARIO </title>
+<META CHARSET="UTF8">
+<Link rel="stylesheet" href="FORM.CSS">
+</head>
+<body>
+<Div class="Registro-container">
+<h2>REGISTRO DE USUARIO</h2>
+<form method="post">
+<label for="nombre">NOMBRE:</label>
+<INPUT Type="text" id="nombre" name="nombre"
+placeholder="ingresa tu nombre"required>
+
+
+<Label for="Apellido"> APELLIDO:</Label>
+<INPUT Type="TEXT" id="apellido" name="apellido"
+placeholder="ingresa tu apellido"required>
+
+<Label for="usuario"> USUARIO:</Label>
+<INPUT Type="text" id="usuario" name="usuario"
+placeholder="ingresa tu usuario"required>
+
+
+<Label for="contrasena"> CONTRASEÑA:</Label>
+<INPUT TYPE="Password" id="contrasena" name="contrasena" placeholder="minimo 6 caracteres">
+
+
+<Label for="fecha">FECHA DE NACIMIENTO:</Label>
+<INPUT Type="date" id="fecha" name="fecha"
+required> 
+
+
+<Label for="Genero"> GENERO:</Label>
+<select id="Genero" name="Genero" required>
+<option value="" >SELECCIONE</option>
+<option value="masculino"> MASCULINO </option>
+<option value="femenino"> FEMENINO </option>
+<option value="otro"> OTRO </option>
+</select>
+
+
+<label>
+<INPUT Type="checkbox" name="terminos"
+required> Acepto los terminos </label>
+
+
+<button Type= "submit" class="boton">
+Registrarme </button>
+
+
+<p class="nota">Tienes una cuenta?
+<a href=" " > Inicia session aqui </a> </p>
+</div>
+</body>
+</html>

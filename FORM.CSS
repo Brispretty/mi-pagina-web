@@ -1,0 +1,67 @@
+BODY{
+Font-family:arial,calibri;
+background:linear-gradient(to right, #EE82EE,#9370DB); Color:#333;
+Display:flex;
+Justify-content:center;
+align-items:center;
+Height:100 vh;
+Margin:0;}
+
+.registro-container {
+background-color:#fff;
+padding:30px 40px;
+Border-radius:10px;
+box-shadow:0px 4px 15px RGBA (0,0,0,0.2);
+width:100%;
+Max-width:400px;
+}
+
+H2{
+text-align:center;
+Color:#8B008B;
+margin-bottom:20px;
+}
+
+Form{
+Display:flex;
+flex-direction:column;
+}
+
+label{
+margin-top:10px;
+font-weight:bold;
+}
+
+INPUT,SELECT{
+padding:10px;
+margin-top:5PX;
+border: 1PX Solid #ccc;
+Border-radius: 5px;
+}
+
+INPUT:FOCUS{
+Border-color:#2575FC;
+outline:none;
+}
+
+.Boton{
+margin-top:20px;
+padding:10px;
+background-color:#4B0082;
+Color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+.Boton:hover{
+background-color:#9400D3;
+}
+
+.Nota{
+text-align:center;
+margin-top:15px;
+font-size:.0.9 EM;
+Color:#555;
+}
